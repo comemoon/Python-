@@ -1,0 +1,40 @@
+dir(__builtins__) 显示内置函数
+
+help(内置函数名称) 解释函数用法
+
+如果字符串中要出现'或",使用转义字符\
+"Let\'s go!"
+原字符串 若是
+
+三引号字符串 引号内若回车换行,输出也带回车换行
+
+python e记法 科学计数法 1.5x10^27 ==> 1.5e27 浮点数!
+	True 就是1 False就是0
+
+	字符串 浮点数 整数 转换
+
+	int() 转int 若浮点数转采用截断小数点后的数
+	float() 转float
+	str() 转字符串 
+	type() 表示变量数据类型,isinstance(变量,数据类型) 返回True or False
+
+	除法: // 有商有余数 / 直接除尽
+	幂: **
+elif 是else if 的缩写
+x if x<y else y 三元操作符 if为真,返回x,否则y
+assert 断言,若assert后为False,抛出异常,真就跳过,用来设置检查点
+len() 返回长度	
+range(),三个参数,生成两个数之间的序列,第三个参数表示步距
+		第一个数可不写,会默认从0开始
+print() 输出默认回车
+print(,end="") 默认一行,每个之间带空格
+列表可以添加任意种类的数据类型
+member=[]
+member.append() 
+member.extend() 参数是列表,用一个列表扩充另一个列表
+member.insert(指定位置,数据)
+member.remove() 参数指定名称,删除
+del member[1]
+member.pop() 将列表最后一个移出,并返回
+member.pop()带参数,指定移出某个元素
+member[:] 会获得原列表的拷贝
